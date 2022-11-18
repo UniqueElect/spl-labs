@@ -1,0 +1,161 @@
+
+    body{
+
+    }
+    #fon{
+        background-size: auto 100%;
+    }
+    label:hover{
+        cursor: pointer;
+        background: rgba(0,0,0,0.3);
+    }
+     label{
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+       }
+       #navVisible{
+        margin-top: 50px;
+        width: 170px; 
+        position: absolute;
+        display: none;
+       }
+       #navVisible ul{
+        margin: 0;
+        flex-direction: column;
+       }
+       #navVisible li {
+        padding: 0;
+       }
+       #navVisible li a {
+        border-top: #cccccc 1px solid;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgba(176, 176, 176, .7);
+       }
+       #dws-menu:checked ~ #navVisible {
+        width: 100px;
+       }   
+       #brandLogo{
+            margin-left: 30%;
+       } 
+       #textContainer1{
+        width: 100%;
+        text-align: left;
+        width: calc(100% - 60px);
+        top: 250px;
+        overflow: auto;
+        margin-left: 0;
+       }
+       #textContainer1 p {
+        font-size: 2vh;
+      }
+      #btn{
+        font-size: 2vh;
+      }
+       #textContainer2{
+        display: none;
+       }
+       .newz{
+        display: none;
+        position: relative;
+        width: 100%;
+        max-width: 900px;
+        margin: 10px;
+       }
+       .newz.active{
+        margin-top: 50px;
+        height: 450px;
+        width: 100%;
+        display: block;
+       }
+       .newsContainer{
+        align-items: center;
+        justify-content: center;
+       }
+       .newImg{
+        height: 75%;
+       }
+       .newsControlsContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background-color: #D9D9D9;
+      }
+      .newsControls{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          height: 50px;
+          width: 33%;
+      }
+      .slider__nav-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        border: 2px solid black;
+        opacity: .8;
+        cursor: pointer;
+     }
+     #nav-button--prev {
+        position: relative;
+        
+     }
+      #nav-button--next {
+        position: relative;
+        margin-left: 50%;
+     }
+     #arrowL{
+      height: 40px;
+      position: relative;
+      right: 3px;
+     }
+     #arrowR{
+      height: 40px;
+      position: relative;
+      left: 3px;
+     }
+       #footer{
+        height: 400px;
+        display: flex;
+        flex-direction: column;      
+       }
+       .ft{
+        width: 100%;
+       }
+       .wrap{
+        margin: 0;
+       }
+       #a{
+        position: relative;
+        left: 0;
+        text-align: center;
+       }
+       #b{
+        position: relative;
+        right: 0;
+        text-align: center;
+        bottom: 100px;
+       }
+       #c{
+        position: relative;
+        text-align: center;
+        top: 155px;
+       }
+       #ftLogo{
+        position: relative;
+        top: 245px;
+        margin-right: -50px;
+        left: calc(50% - 55px/2);
+       }
+       @media all and (max-width: 780px){
+
+       }

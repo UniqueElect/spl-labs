@@ -1,0 +1,63 @@
+.infoContainer{   
+    font-size: 1wh;
+    display: block;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: calc(100% - 150px);
+    background-color: rgba(217, 217, 217, 0.9);
+    overflow:scroll
+}
+h2{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1vw;
+}
+.infoo{ 
+    font-weight: 500;
+    line-height: 1.5;
+    align-items: center;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size:  1vw;
+}
+.containerA{
+    width: 100%;
+    text-align: center;
+}
+.contactA{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(2, 148, 194, 0.7);
+    border-radius: 5px;
+    font-size: 1vw;
+}
+.contactA:hover{
+    background-color: rgba(2, 148, 194, 1);
+}
+.videoContainer{
+    margin-top: 5%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    /* bottom: 100px; */
+    width: 100%;
+}
+#videoo{
+    display: block;
+    height: 20vh;
+}
+#footer{
+    position: absolute;
+    margin-bottom: -200px;
+    bottom: 0;
+}

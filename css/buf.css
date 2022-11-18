@@ -1,0 +1,131 @@
+body {margin: 0; padding: 0;   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#fon{
+  position: relative;
+  background-image: url("../source/isaac-quesada-s34TlUTPIf4-unsplash.jpg");
+  height: 100vh;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#navContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    background-color: rgba(176, 176, 176, .7);
+    font-size: 24px;
+    font-weight: 650;
+}
+#brandLogo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin-left: 150px;
+    font-size: 0;
+}
+#logo{
+  height: 30px;
+}
+#textLogo{
+  position: relative;
+  float: right;
+  font-size: 24px;
+  top: -2px;
+  color: #1C5154;
+}
+#navVisible{
+width: 100%;
+position: relative;
+opacity: 1;
+text-align: center;
+}
+
+#navVisible ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #navVisible li {
+    margin-right: 10px;
+    padding: 10px;
+    /* margin: 5px 40px; */
+  }
+  
+  #navVisible li a {
+    display: block;
+    text-align: center;
+    color: #1F1D1D;
+    text-decoration: none;
+  }
+
+  #navVisible li a:hover {
+    color: #1C5154;
+  }
+  #burger{
+    height: 30px;
+  }
+  #dws_menu{
+    display: none;
+   }
+   label{
+    display: none;
+   }
+   @media all and (max-width: 900px){
+    body{
+        color: rgb(4, 241, 4);
+    }
+    #fon{
+        background-size: auto 100%;
+    }
+    label:hover{
+        cursor: pointer;
+        background: rgba(0,0,0,0.3);
+    }
+     label{
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+       }
+       #navVisible{
+        margin-top: 50px;
+        width: 170px; 
+        position: absolute;
+        display: none;
+       }
+       #navVisible ul{
+        margin: 0;
+        flex-direction: column;
+       }
+       #navVisible li {
+        padding: 0;
+       }
+       #navVisible li a {
+        border-top: #cccccc 1px solid;
+        text-align: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgba(176, 176, 176, .7);
+       }
+       #dws-menu:checked ~ #navVisible {
+        width: 100px;
+       }   
+       #brandLogo{
+            margin-left: 30%;
+       } 
+
+
+       
+}

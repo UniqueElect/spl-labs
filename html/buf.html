@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monolit</title>
+    <link href="../css/buf.css" rel="stylesheet" type="text/css"/>
+    <!-- <link href="../css/media.css" rel="stylesheet" media="all and (max-width: 900px)" type="text/css"/> -->
+    <link rel="shortcut icon" href="/source/fon.png" type="image/png">
+</head>
+<body>
+    <div id="fon">
+        <div id="navContainer"> 
+            <a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+            <div class="leb_menu">
+                <label for="icon"><img src="/source/menu.png" id="burger"></label>
+            </div>
+                <a id="brandLogo" href="/html/home.html">
+                <img id="logo" src="../source//fon.png">
+               <span id =textLogo>Монолiт</span> 
+            </a>
+            <nav id="navVisible">
+            <ul>
+                <li><a href="/html/home.html">Головна</a></li>
+                <li><a href="/html/objects.html">Об'єкти</a></li>
+                <li><a href="/html/info.html">Iнформацiя</a></li>
+                <li><a href="#news">Новини</a></li>
+                <li><a href="#bottom">Контакти</a></li>
+              </ul> 
+            </nav>
+            </div>
+            <script>
+                function burgerFunction() {
+                  var x = document.getElementById("navVisible");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>
+                
